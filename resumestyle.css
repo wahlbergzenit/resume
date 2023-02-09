@@ -1,0 +1,176 @@
+* {
+	font-family: "Courier New";
+	background-color: #1D1F21;
+}
+
+a {
+	font-weight: bold;
+	color: #C5C8C6;
+	font-size: 25px;
+	margin: 40px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.contact{
+	font-size: 25px;
+	margin: 0px;
+}
+
+a.link1{
+	font-size: 16px;
+	margin: 0px 0px 0px 90px;
+	color: #56c6ff;
+}
+
+a.link2{
+	font-size: 16px;
+	margin: 0px 0px 0px 10px;
+	color: #56c6ff;
+}
+
+body {
+	color: #C5C8C6;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 60px;
+	margin: 0px 0px 0px 0px;
+}
+
+h1.contact {
+	font-size: 60px;
+	margin: 20px 0px 0px 0px;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 1200;
+	line-height: 0.9;
+	margin:30px 0px 10px 0px;
+}
+
+img {
+	width: 340px;
+ 	margin: 35px 0px 55px 45px;
+    border: 5px solid;
+	border-color: #C5C8C6;
+  	border-radius: 50%;
+}
+
+.symbols {
+	color: #b5963e;
+}
+
+.type1 {
+	color: #ff6bc0;
+}
+
+.types {
+	color: #56c6ff;
+}
+
+.identifiers {
+	color: #cceeff;
+}
+
+.values {
+	color: #f3f99d;
+}
+
+.p1 {
+	font-size: 20px;
+	margin: 0px 0px 20px 0px;
+	
+}
+
+.p2 {
+	margin: 0 0 0px 0;
+}
+
+.p3 {
+	line-height: 2.1;
+	margin: 0px 0px 0px 80px;
+}
+
+div.a {
+	color: red;
+}
+
+div.b {
+	margin: 0px 0px 0px 40px;
+	line-height: 1.9;
+}
+
+.column1 {
+	float: left;
+	width: 50px;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+.col1 {
+	margin: 104px 0px 10px 0px;
+	float: left;
+	width: 50%;
+	line-height: 1.4;
+}
+
+.col2 {
+	float: left;
+	width: 30%;
+}
+
+.col3 {
+	margin: 0px 60px 0px 40px;
+	float: left;
+	width: 45%;
+	line-height: 1.4;
+}
+
+.col4 {
+	float: left;
+	width: 40%;
+	line-height: 1.4;
+}
+
+table {
+	margin: 30px 0px 0px 0px;
+	border-style: dashed;
+	border-width: 3px;
+	border-spacing: 10px;
+	border-radius: 3px;
+}
+
+.info {
+	margin: 10px 0px 10px 40px;
+	border-style: dashed;
+	border-width: 3px;
+	border-spacing: 10px;
+	border-radius: 3px;
+	padding: 5px;
+	color: #C5C8C6;
+	border-color: #C5C8C6;
+}
+
+.button {
+	border-style: solid;
+	border-width: 3px;
+	border-spacing: 10px;
+	border-radius: 3px;
+	padding: 5px 15px;
+	color: #C5C8C6;
+	border-color: #C5C8C6;
+}
+
+.buttons {
+	margin: 10px 0px 10px 40px;
+}

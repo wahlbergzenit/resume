@@ -2,22 +2,23 @@
 <html>
     <head>
         <title>Contact Form</title>
+        <link rel="stylesheet" type="text/css" href="resumestyle.css">
     </head>
     <body>
-        <a href="resume_zenit.html">←BACK</a>
-        <h1>Drop a message</h1>
+        <a class="contact" href="resume_zenit.html">.back</a>
+        <h1 class="contact">Drop a message</h1>
         <form>
-            <input placeholder="Enter name" type="text" name="firstname" />
+            <input class="info" placeholder="Enter name" type="text" name="firstname" />
+            <input class="info" placeholder="Enter email address" type="email" name="email" />
             <br />
-            <input placeholder="Enter email address" type="email" name="email" />
+            <textarea class= "info" placeholder="Your message here..." name="message" cols="47" rows="10"></textarea>
             <br />
-            <textarea placeholder="Your message here..." name="message" cols="30" rows="10"></textarea>
-            <br />
-            <input type="submit" name="submit" value="Submit" />
-            <input type="reset" name="reset" value="Reset" />
-            <br />
-            <a href="https://www.facebook.com/wahlberg.zenit">Facebook</a>
-            <a href="https://github.com/wahlbergzenit">GitHub</a>
+            <div class="buttons"><input class="button" type="submit" name="submit" value="Submit" />
+                <input class="button" type="reset" name="reset" value="Reset" />
+            
+            <a class="link1" href="https://www.facebook.com/wahlberg.zenit">Facebook</a>
+            <a class="link2" href="https://github.com/wahlbergzenit">GitHub</a>
+            </div>
         </form>
     </body>
 </html>
